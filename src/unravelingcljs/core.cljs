@@ -27,5 +27,4 @@
     (dom/setTextContent (dom/getElement "pricetag")
                         (str "only $" (@app-state :price) ".00!"))))
 
-
 (events/listen (dom/getElement "app") "click" unfreeify)
